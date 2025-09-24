@@ -1,0 +1,9 @@
+google-adk==1.13.0
+psutil==7.0.0
+google-generativeai==0.8.5
+python-dotenv==1.1.1
+google-cloud-aiplatform>=1.38.0
+crewai==0.177.0
+uvicorn==0.35.0
+a2a-sdk[http-server]==0.3.3
+toolbox-core==0.5.0
