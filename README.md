@@ -28,12 +28,7 @@
 First, you need to set up Google Cloud CLI and authentication:
 
 1. **Install Google Cloud CLI**:
-   ```bash
-   # On macOS with Homebrew
-   brew install google-cloud-sdk
-   
-   # Or download from: https://cloud.google.com/sdk/docs/install
-   ```
+   Follow the instructions from: https://cloud.google.com/sdk/docs/install-sdk
 
 2. **Authenticate with Google Cloud**:
    ```bash
