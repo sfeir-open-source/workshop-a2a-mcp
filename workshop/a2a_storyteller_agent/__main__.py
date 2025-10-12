@@ -21,24 +21,13 @@ def main(host, port):
     """Entry point for the A2A + Storyteller Agent"""
     try:
         capabilities = AgentCapabilities(streaming=False)
-        skill = AgentSkill(
-            id="create_story",
-            name="Story Creation Tool",
-            description="Helps with writing stories",
-            tags=["story creation"],
-            examples=["What's new in Generative AI?"],
-        )
+        # TODO: Create AgentSkill for story creation
+        # Define skill with id, name, description, tags, and examples.
+        skill = 
 
-        agent_card = AgentCard(
-            name="Storyteller Agent",
-            description="Helps with writing stories",
-            url=f"http://{host}:{port}",
-            version="1.0.0",
-            defaultInputModes=StorytellerAgent.SUPPORTED_CONTENT_TYPES,
-            defaultOutputModes=StorytellerAgent.SUPPORTED_CONTENT_TYPES_OUTPUT,
-            capabilities=capabilities,
-            skills=[skill],
-        )
+        # TODO: Create AgentCard for storyteller agent
+        # Define agent card with name, description, url, version, input/output modes, capabilities, and skills.
+        agent_card = 
 
         request_handler = DefaultRequestHandler(
             agent_executor=StorytellerAgentExecutor(),
