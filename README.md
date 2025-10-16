@@ -128,7 +128,7 @@ Now let's add an A2A wrapper!
 
 ### Orchestrator
 - **MCP ToolBox Connector**: `workshop/orchestrator_agent/sub_agent/agent.py`
-  - Add the MCP Toolbox connector in order to save the story.
+  - Add the MCP Toolbox connector in order to save the story. If you need help, check the corresponding package: https://pypi.org/project/toolbox-core/ .
 
 
 ## Debugging 🔍
