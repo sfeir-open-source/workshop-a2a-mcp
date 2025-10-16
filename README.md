@@ -126,6 +126,11 @@ Now let's add an A2A wrapper!
 - **A2A Server URLs**: `workshop/config.py`
   - Add the URLs for the A2A servers (A2A_IMAGE_GENERATION_URL and A2A_STORYTELLER_URL).
 
+### Orchestrator
+- **MCP ToolBox Connector**: `workshop/orchestrator_agent/sub_agent/agent.py`
+  - Add the MCP Toolbox connector in order to save the story.
+
+
 ## Debugging 🔍
 
 ### Testing Individual Agents
