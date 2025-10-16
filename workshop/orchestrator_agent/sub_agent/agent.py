@@ -19,8 +19,8 @@ image_generator_tool = AgentTool(agent=image_generator_agent)
 story_teller_tool = AgentTool(agent=story_teller_agent)
 
 
-toolbox = ToolboxSyncClient(TOOLBOX_ENDPOINT)
-save_story = toolbox.load_tool("insert-story")
+#TODO Add MCP Toolbox to save the Story (The tool name is insert-story) use ToolboxSyncClient
+save_story = None
 logger.info(f"Loaded save_story tool: {save_story}")
 
 
