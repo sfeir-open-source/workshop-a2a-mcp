@@ -8,6 +8,6 @@ MODEL_GEMINI_CREW = "vertex_ai/gemini-2.5-flash"
 MODEL_IMAGEN = "imagen-4.0-fast-generate-001"
 
 # Service URLs
-TOOLBOX_ENDPOINT = "https://TOOLBOX_ENDPOINT.us-central1.run.app" # TODO: add toolbox endpoint URL from the Cloud Run
+TOOLBOX_ENDPOINT = "https://TOOLBOX_ENDPOINT" # TODO: add toolbox endpoint URL from the Cloud Run
 A2A_IMAGE_GENERATION_URL = "http://127.0.0.1:10001"
 A2A_STORYTELLER_URL = "http://127.0.0.1:10002"
