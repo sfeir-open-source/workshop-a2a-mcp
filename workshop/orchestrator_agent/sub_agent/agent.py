@@ -20,6 +20,7 @@ story_teller_tool = AgentTool(agent=story_teller_agent)
 
 
 #TODO Add MCP Toolbox to save the Story (The tool name is insert-story) use ToolboxSyncClient
+toolbox = None
 save_story = None
 logger.info(f"Loaded save_story tool: {save_story}")
 

@@ -10,9 +10,6 @@ refinement_loop = LoopAgent(
     between the critic and editor agents to improve the draft until it is complete or the 
     maximum number of iterations is reached.
     """,
-    sub_agents=[
-        critic_agent,
-        editor_agent,
-    ],
-    max_iterations=5
+     # TODO: Implement the sub_agents list and max_iterations
+    # Add the necessary subagents, and set max_iterations
 )

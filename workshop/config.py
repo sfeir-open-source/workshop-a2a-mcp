@@ -11,5 +11,5 @@ MODEL_IMAGEN = "imagen-4.0-fast-generate-001"
 TOOLBOX_ENDPOINT = "https://TOOLBOX_ENDPOINT" # TODO: add toolbox endpoint URL from Cloud Run
 
 # TODO: Add the URLs for the A2A servers
-A2A_IMAGE_GENERATION_URL = 
-A2A_STORYTELLER_URL = 
+A2A_IMAGE_GENERATION_URL = ""
+A2A_STORYTELLER_URL = ""
